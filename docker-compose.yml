@@ -1,0 +1,8 @@
+version: '2'
+services:
+  app:
+    image: 'ruby:2.5'
+    command: 'bash'
+    volumes:
+    - '.:/cwd'
+    working_dir: '/cwd'
