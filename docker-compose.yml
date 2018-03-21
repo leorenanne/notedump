@@ -1,4 +1,4 @@
-version: '2'
+version: '2.3'
 services:
   app:
     image: 'ruby:2.5'
@@ -10,3 +10,4 @@ services:
     working_dir: '/cwd'
     ports:
     - '4000:4000'
+    init: true
