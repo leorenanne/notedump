@@ -1,0 +1,4 @@
+#!/bin/bash
+set -e -u -o pipefail
+cd "$(dirname "$0")/.."
+docker-compose run -e JEKYLL_ENV=production app sh -c "bundle install --deployment && bundle exec jekyll build -s src"

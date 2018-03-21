@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e -u -o pipefail
-rm -rf _site
-docker-compose run -e JEKYLL_ENV=production app sh -c "bundle install --deployment && bundle exec jekyll build -s src"
-aws cloudformation update-stack --stack-name leoren-notedump --template-body file://./cloudformation/s3.json --region ap-southeast-2
-# TODO upload files from _site to S3
+cd "$(dirname "$0")/.."
+auto/build
+auto/deploy-stack
+auto/upload-files
