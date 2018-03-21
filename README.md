@@ -2,11 +2,16 @@
 
 ## To run server:
 ```
-$ docker-compose up
+auto/dev-server
 ```
 then visit http://localhost:4000/
 
 ## To update gems:
 ```
-docker-compose run app bundle install --no-deployment
+auto/update-gems
+```
+
+## To build and deploy to production:
+```
+auto/deploy
 ```

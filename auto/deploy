@@ -1,0 +1,4 @@
+#!/bin/bash -eu
+# TODO build the site locally with JEKYLL_ENV=production
+# TODO deploy S3 bucket stack
+# TODO upload files to S3
