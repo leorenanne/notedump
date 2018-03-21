@@ -2,7 +2,9 @@ version: '2'
 services:
   app:
     image: 'ruby:2.5'
-    command: 'bash'
+    command: 'sh -c "bundle install --deployment && bundle exec jekyll serve --livereload --host 0.0.0.0 -s src"'
     volumes:
     - '.:/cwd'
     working_dir: '/cwd'
+    ports:
+    - '4000:4000'
