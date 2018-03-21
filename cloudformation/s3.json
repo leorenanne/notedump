@@ -1,0 +1,19 @@
+
+{
+  "Resources" : {
+    "NotedumpBucket" : {
+      "Type" : "AWS::S3::Bucket",
+      "Properties" : {
+        "BucketName" : "notedump.com",
+        "Tags" : [ { "Key": "owner" , "Value": "leoren.tanyag" } ]
+      }
+    },
+    "WWWNotedumpBucket" : {
+      "Type" : "AWS::S3::Bucket",
+      "Properties" : {
+        "BucketName" : "www.notedump.com",
+        "Tags" : [ { "Key": "owner" , "Value": "leoren.tanyag" }]
+      }
+    }
+  }
+}
