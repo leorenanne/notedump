@@ -1,0 +1,38 @@
+{
+  "Resources" : {
+    "TravisUser" : {
+      "Type": "AWS::IAM::User",
+      "Properties": {
+        "Policies": [
+          {
+            "PolicyName" : "AllowTravisCI",
+            "PolicyDocument" : {
+              "Version":"2012-10-17",
+              "Statement":[
+                {
+                  "Effect":"Allow",
+                  "Action":[
+                    "cloudformation:*"
+                  ],
+                  "Resource":"arn:aws:cloudformation:ap-southeast-2:400767713940:stack/leoren-notedump/*"
+                },
+                {
+                  "Effect": "Allow",
+                  "Action": [
+                    "s3:*"
+                  ],
+                  "Resource": [
+                    "arn:aws:s3:::notedump.com",
+                    "arn:aws:s3:::www.notedump.com",
+                    "arn:aws:s3:::notedump.com/*",
+                    "arn:aws:s3:::www.notedump.com/*"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }       
+  }
+}
