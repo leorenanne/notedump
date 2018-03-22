@@ -12,19 +12,6 @@
         }
       }
     },
-    "WWWNotedumpBucket" : {
-      "Type" : "AWS::S3::Bucket",
-      "Properties" : {
-        "BucketName" : "www.notedump.com",
-        "Tags" : [ { "Key": "owner" , "Value": "leoren.tanyag" }],
-        "WebsiteConfiguration": {
-          "RedirectAllRequestsTo" : {
-            "HostName" : "notedump.com",
-            "Protocol" : "http"
-          }
-        }
-      }
-    },
     "NotedumpBucketPolicy" : {
       "Type" : "AWS::S3::BucketPolicy",
       "Properties" : {
