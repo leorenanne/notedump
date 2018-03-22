@@ -2,4 +2,4 @@
 set -e -u -o pipefail
 cd "$(dirname "$0")/.."
 
-aws s3 sync ./_site/ s3://notedump.com
+aws s3 sync --cache-control max-age=300 ./_site/ s3://notedump.com
