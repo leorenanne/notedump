@@ -1,9 +1,7 @@
 services: 
   - docker
 
-# Since we're doing everything inside Docker, skip unnecessary Ruby
-# installation steps
-install: true
+language: generic
 
 script:
   - auto/deploy
