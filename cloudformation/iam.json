@@ -23,9 +23,7 @@
                   ],
                   "Resource": [
                     "arn:aws:s3:::notedump.com",
-                    "arn:aws:s3:::www.notedump.com",
-                    "arn:aws:s3:::notedump.com/*",
-                    "arn:aws:s3:::www.notedump.com/*"
+                    "arn:aws:s3:::notedump.com/*"
                   ]
                 }
               ]

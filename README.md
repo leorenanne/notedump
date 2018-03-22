@@ -15,3 +15,8 @@ auto/update-gems
 ```
 auto/deploy
 ```
+
+## Update IAM User permissions for TravisUser
+```
+aws cloudformation update-stack --stack-name iam-user --capabilities CAPABILITY_IAM --template-body file://./cloudformation/iam.json
+```
