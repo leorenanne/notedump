@@ -16,7 +16,8 @@
 title: Notedump
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This is the place where Leoren dumps her notes. Tada! 😄
+  This is the place where Leoren dumps her notes. Tada!
+  Note that this page is a literal "Note Dump", so it's purely my notes and not a 100% source of truth. But if it somehow helps you get by in anyway, then you're welcome. 💁🏻
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://notedump.com"
 social_username: leorenanne
@@ -26,6 +27,7 @@ linkedin: leoren-tanyag-733a05b6
 # Build settings
 markdown: kramdown
 theme: jekyll-swiss
+theme_color: blue
 plugins:
   - jekyll-feed
 
