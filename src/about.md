@@ -1,18 +1,12 @@
 ---
 layout: page
-title: Hi
-permalink: /about2/
+title: About
+permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+This page is created with the help of Mr 
+[Angus McInnes](https://www.linkedin.com/in/angus-mcinnes-3185b574/)
+to enable Leoren to share all her learning notes publicly for other people to benefit.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Note that this is a literal "Note Dump", so it's purely my notes and not 100% source of truth. But if it somehow helps you get by in anyway, then that's my job done. 💁🏻
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
