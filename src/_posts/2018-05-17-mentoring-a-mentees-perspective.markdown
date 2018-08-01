@@ -2,7 +2,7 @@
 layout: post
 title:  "Mentoring: A Mentee's Perspective - Slides"
 date:   2018-03-23 15:53:02 +0000
-categories: howto
+categories: talks
 ---
 
 Here are my slides for my talk - **Mentoring: A Mentee's Perspective**
