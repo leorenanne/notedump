@@ -27,7 +27,6 @@ SREcon is a conference hosted by [`USENIX`](https://www.usenix.org/about) which 
 And I practised A LOT. It was my first conference talk, so I just had to be prepared.
 
 ![image]({{"/assets/srecon18/3.jpg"}}){: .center-image }
-*Doing a dry run internally in the company*
 
 ## And off I went...
 
@@ -40,7 +39,6 @@ And yes, I had to wear the special SREcon badge with the big red ribbon that say
 I found out my talk was on the last day so I spent the first two days enjoying the conference, networking and observing how other people do presentations.
 
 ![image]({{"/assets/srecon18/6.jpg"}}){: .center-image }
-*Lightning talk from Facebook on how they monitored their DC to troubleshoot a problem*
 
 ## Then the Game Day Arrived
 
@@ -77,7 +75,6 @@ PagerDuty hosted dinner and invited me and my Engineering Manager to devour some
 I also met some amazing engineers from Amazon Tokyo, Google New York, VMWare India, Slack, Facebook Messenger California, and a lot more I can’t remember.  
 
 ![image]({{"/assets/srecon18/13.jpg"}}){: .center-image }
-*Engineers from Tokyo*
 
 
 ## Thank you!
